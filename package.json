@@ -1,0 +1,28 @@
+{
+  "name": "gulp-mjs-conventions",
+  "version": "0.0.1",
+  "description": "Gulp build conventions for projects using metascript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/massimiliano-mantione/gulp-mjs-conventions.git"
+  },
+  "main": "lib/main.js",
+  "scripts": {
+    "build": "./node_modules/.bin/mjs lib/main.mjs",
+    "test": "./node_modules/.bin/mjs lib/main.mjs && echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Massimiliano Mantione <massimiliano.mantione@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "source-map-support": "^0.2.6",
+    "event-stream": "~3.1.1",
+    "meta-script": ">=0.0.43",
+    "gulp": "^3.8.5",
+    "gulp-mjs": "^0.0.4",
+    "gulp-mocha": "~0.4.1",
+    "gulp-util": "^2.2.19",
+    "mocha": "^1.20.1"
+  }
+}
