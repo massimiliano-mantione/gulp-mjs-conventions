@@ -5,10 +5,10 @@ An npm module to create gulp tasks that we conventionally want in a metascript-b
 
 The gulpfile should contain the following:
 
-'''
+```
 var gulp = require('gulp');
 require('gulp-mjs-conventions')(gulp);
-'''
+```
 
 It assumes a source tree with the following directories:
 
