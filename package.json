@@ -1,6 +1,6 @@
 {
   "name": "gulp-mjs-conventions",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Gulp build conventions for projects using metascript",
   "repository": {
     "type": "git",
@@ -17,10 +17,10 @@
   "dependencies": {
     "event-stream": "~3.1.1",
     "gulp": "^3.8.5",
-    "gulp-mjs": "0.0.9",
+    "gulp-mjs": ">=0.0.10",
     "gulp-mocha": "~0.4.1",
     "gulp-util": "^2.2.19",
-    "meta-script": ">=0.0.43",
+    "meta-script": ">=0.0.47",
     "mocha": "^1.20.1",
     "source-map-support": "^0.2.6"
   }
